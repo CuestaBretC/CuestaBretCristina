@@ -18,6 +18,9 @@
             color: #007acc;
             font-weight: 600;
         }
+        p {
+            margin: 20px 0;
+        }
         a {
             display: inline-block;
             background: #007acc;
@@ -26,37 +29,32 @@
             border-radius: 5px;
             text-decoration: none;
             font-weight: 400;
+            margin: 10px 0; /* Added margin to space out buttons */
             transition: 0.3s;
         }
         a:hover {
             background: #005a9c;
         }
+        .linkedin {
+            background: #0077b5; 
+        }
+        .linkedin:hover {
+            background: #005a8b; 
+        }
     </style>
-
 </head>
 <body>
     <h1>Cristina Cuesta Bret's Engineering Portfolio</h1>
     <p>Hello! I’m a mechanical engineering student passionate about combining renewable energy, sustainability, and mechanical design.</p>
-    <a href="resume.pdf" target="_blank">📄 View My Resume</a>
-<a href="https://www.linkedin.com/in/cristinacuestabret/" target="_blank" style="
-    display: inline-block;
-    background: #0077b5; 
-    color: white; 
-    padding: 10px 15px; 
-    border-radius: 5px; 
-    text-decoration: none;">
-    🔗 LinkedIn
-</a>
-<a href="projects.html" style="
-    display: inline-block; 
-    background: #007acc; 
-    color: white; 
-    padding: 12px 18px; 
-    border-radius: 5px; 
-    text-decoration: none;">
-    🚀 View My Projects
-</a>
 
+    <!-- Resume Link -->
+    <a href="resume.pdf" target="_blank">📄 View My Resume</a>
+
+    <!-- LinkedIn Link -->
+    <a href="https://www.linkedin.com/in/cristinacuestabret/" target="_blank" class="linkedin">🔗 LinkedIn</a>
+
+    <!-- Projects Link -->
+    <a href="projects.html">🚀 View My Projects</a>
 
 </body>
 </html>
